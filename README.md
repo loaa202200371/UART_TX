@@ -23,5 +23,5 @@ The architecture is divided into four cleanly decoupled hardware modules:
                   |                                   |
  [P_in]  =========> [ Serializer ] ------> (Ser_in) --+
  [P_Bit] ---------> [ Parity Calc ] ------> (Par_bit) -+---> [ MUX ] ---> Tx_out
- [V_input/P_En] --> [ FSM Control ] ------> (Sel) ----+
+ [V_input && P_En] --> [ FSM Control ] ------> (Sel) ----+
                   +-----------------------------------+
